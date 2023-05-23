@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #c793fc 0%, #a88fe6 50%, #898cd1 100%);
+}
+
+.container {
+  background-color: #fff;
+  padding: 125px 175px;
+  border: none;
+  border-radius: 17px;
+  display: flex;
+  gap: 140px;
+  align-items: flex-start;
+}
+.container h2 {
+  font-size: 36px;
+  font-weight: bold;
+  width: 245px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 321px;
+}
+.container form .form-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 58px;
+}
+.container form .form-top .btn {
+  background: transparent;
+  border: 2px solid #dcdbe5;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 53px;
+  white-space: nowrap;
+}
+.container form .form-top .apple-btn img {
+  width: 27px;
+}
+.container form .form-top .google-btn img {
+  width: 34px;
+}
+.container form .form-mid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 321px;
+  margin-bottom: 56px;
+}
+.container form .form-mid .line {
+  width: 136px;
+  height: 2px;
+  background-color: #dcdbe5;
+}
+.container form .form-mid p {
+  font-weight: bold;
+  color: #dcdbe5;
+}
+.container form .form-bottom {
+  width: 100%;
+}
+.container form .form-bottom .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.container form .form-bottom .input-container label {
+  font-weight: bold;
+  font-size: 14px;
+}
+.container form .form-bottom .input-container input {
+  padding: 23px 20px 20px 20px;
+  border: 2px solid #dcdbe5;
+  border-radius: 7px;
+}
+.container form .form-bottom .input-container input::placeholder {
+  color: #000;
+  font-size: 18px;
+}
+.container form .form-bottom button {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #c793fc 0%, #a88fe6 50%, #898cd1 100%);
+  border: none;
+  border-radius: 7px;
+  padding: 23px 74px 20px 74px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+}
